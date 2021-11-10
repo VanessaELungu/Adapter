@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 #ifndef european_h
 #define european_h
