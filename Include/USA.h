@@ -11,9 +11,9 @@ typedef int Cable;
 class USA
 {
     public:
-    virtual int voltage();
-    virtual Cable live();
-    virtual Cable neutral();
+    virtual int voltage() = 0;
+    virtual Cable live() = 0;
+    virtual Cable neutral() = 0;
 };
 
 #endif

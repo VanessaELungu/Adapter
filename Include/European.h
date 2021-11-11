@@ -12,10 +12,10 @@ typedef int Cable; //wire with electrons
 class European
 {
     public:
-    virtual int voltage();
-    virtual Cable live();
-    virtual Cable neutral();
-    virtual Cable earth();
+    virtual int voltage() = 0;
+    virtual Cable live() = 0;
+    virtual Cable neutral() = 0;
+    virtual Cable earth() = 0;
 
 };
 

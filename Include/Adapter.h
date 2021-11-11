@@ -11,8 +11,9 @@ using namespace std;
 class Adapter : public USA
 {
     European* socket;
+    
     public:
-    void PlugIn();
+    void PlugIn(European* outlet);
     int voltage();
     Cable live();
     Cable neutral();
